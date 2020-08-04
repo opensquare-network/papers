@@ -86,15 +86,17 @@ SDF规定描述内容主要分为两部分：
 
 #### 4.2.1 基础数据
 基础数据是Bounty的固有属性，主要包括以下几个元素：
-- Funder：Bounty创建者
-- Currency：Bounty的计算数字货币，如DOT，BTC，DAI等
-- Price：以currency为单位的数字货币数量
-- SD Hash：Bounty描述内容的Hash（改描述内容符合SDF）
+- Funder：Bounty创建者。
+- Currency：Bounty的计算数字货币，如DOT，BTC，DAI等。
+- Price：以currency为单位的数字货币数量。
+- SD Hash：Bounty描述内容的Hash（改描述内容符合SDF）。
 
 #### 4.2.2 业务数据
 业务数据服务于平台上层业务，如信息检索、Bounty协作等。随着业务的扩展，该部分数据有可能会扩充。前期业务数据主要包括：
-- Category：Bounty的分类，如设计、文案、开发等
-- Report Schedule：表示Hunter得到Bounty授权后，对完成状况报告的时间表，如每天、每周等
+- Category：Bounty的分类，如设计、文案、开发等。
+- Report Schedule：表示Hunter得到Bounty授权后，对完成状况报告的时间表，如每天、每周等。
+
+### 4.3 Bounty生命周期
 
 ## 5. 平台行为及行为信用分数
 
