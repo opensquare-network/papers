@@ -70,17 +70,31 @@ OpenSquare平台上的行为主要是针对Bounty的协作行为，该行为以B
 
 ### 通用描述格式：SDF
 在协作过程中，协作方会产生大量的沟通信息，这些沟通信息可以作为协作方信用的凭证，因此，这些信息的凭证会保存在OpenSquare链上。
-为便于统一处理，这些信息需符合一定的格式要求，我们称此格式为Square Description Format，简称SDF，符合此标准的描述信息统称为Square Description，简称SD。
+为便于统一处理，这些信息需符合一定的格式要求，我们称此格式为Square Description Format，简称SDF，
+符合此标准的描述信息统称为Square Description，简称SD。
 SDF规定描述内容主要分为两部分：
 - 富文本：此项为必需内容，代表了沟通信息的富文本描述。
 - 附件：此项为可选内容，当某项沟通信息需要更多文件帮助理解时，可添加此内容。
 
-我们会暂时将SD保存在OpenSquare中心化服务器内，未来将逐步替换为去中心化存储的方式。链上会保存SD的哈希，SD的哈希计算会采取以下公式：  
+我们会暂时将SD保存在OpenSquare中心化服务器内，未来将逐步替换为去中心化存储的方式。链上会保存SD的哈希（SD Hash），SD的哈希计算会采取以下公式：  
 <img style="margin: 20px 0 20px 0" src="https://render.githubusercontent.com/render/math?math=Hash(Hash(Rich%20Text)%20%2B%20Hash(Attachment))" />  
 其中'Rich Text'代表富文本，'Attachment'代表附件。
 
 ### Bounty基本内容
 平台首要的协作模式基于Bounty展开，因此，协作中的最重要信息便是Bounty的描述信息。
+该描述信息包括两个分类，基础数据（Metadata）和业务数据(Business Data)。
+
+#### 基础数据
+基础数据是Bounty的固有属性，主要包括以下几个元素：
+- Funder：Bounty创建者
+- Currency：Bounty的计算数字货币，如DOT，BTC，DAI等
+- Price：以currency为单位的数字货币数量
+- SD Hash：Bounty描述内容的Hash（改描述内容符合SDF）
+
+#### 业务数据
+业务数据服务于平台上层业务，如信息检索、Bounty协作等。随着业务的扩展，该部分数据有可能会扩充。前期业务数据主要包括：
+- Category：Bounty的分类，如设计、文案、开发等
+- Report Schedule：表示Hunter得到Bounty授权后，对完成状况报告的时间表，如每天、每周等
 
 ## 平台行为及行为信用分数
 
