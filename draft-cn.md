@@ -43,7 +43,7 @@ OpenSquare 首先要做的是建立一个基于区块链的众包平台，在该
 - Hunter：任务申请者，其参与的主要目的是利用自身技能或品质帮助Funder解决问题，获取对应的报酬。
 - Council：管理委员会，其主要任务是审核Bounty的合规性，解决Funder与Hunter之间的纠纷。同时，Council会保管Bounty的服务费用，并决定如何利用以促进平台的发展。
 
-### 优势  
+### 优势
 该平台将解决传统及现有基于区块链众包平台的问题，优越性主要体现在一下几方面。 
 
 1. 开放性  
@@ -75,11 +75,8 @@ SDF规定描述内容主要分为两部分：
 - 富文本：此项为必需内容，代表了沟通信息的富文本描述。
 - 附件：此项为可选内容，当某项沟通信息需要更多文件帮助理解时，可添加此内容。
 
-我们会暂时将SD保存在OpenSquare中心化服务器内，未来将逐步替换为去中心化存储的方式。链上会保存SD的哈希，SD的哈希计算会采取以下公式：
-
-```
-Hash(Hash(Rich Text) + Hash(Attachment))
-```
+我们会暂时将SD保存在OpenSquare中心化服务器内，未来将逐步替换为去中心化存储的方式。链上会保存SD的哈希，SD的哈希计算会采取以下公式：  
+<img style="margin: 20px 0 20px 0" src="https://render.githubusercontent.com/render/math?math=Hash(Hash(Rich%20Text)%20%2B%20Hash(Attachment))" />  
 其中'Rich Text'代表富文本，'Attachment'代表附件。
 
 ### Bounty基本内容
