@@ -97,6 +97,9 @@ SDF规定描述内容主要分为两部分：
 - Report Schedule：表示Hunter得到Bounty授权后，对完成状况报告的时间表，如每天、每周等。
 
 ### 4.3 Bounty生命周期
+下图展示了Bounty的大致生命周期，我们忽略了一些细节，如Hunter提交后和Funder的沟通细节等。
+
+<img src="https://user-images.githubusercontent.com/2264908/89305456-3e359880-d6a1-11ea-9bdb-3f1b6c0edb8f.png" width="261" height="623">
 
 ## 5. 平台行为及行为信用分数
 
