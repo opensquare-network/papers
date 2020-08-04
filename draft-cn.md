@@ -101,6 +101,15 @@ SDF规定描述内容主要分为两部分：
 
 <img src="https://user-images.githubusercontent.com/2264908/89305456-3e359880-d6a1-11ea-9bdb-3f1b6c0edb8f.png" width="261" height="623">
 
+#### 4.3.1 Bounty创建和审核
+因为OpenSquare是一个开放Bounty协作平台，任何人只要持有平台原生资产作为手续费就可以创建Bounty，所以Bounty的质量可能参差不齐，
+且有些Bounty可能存在并不符合法律规范、严重违反社会道德等情况。Bounty的质量无法以数学的手段进行验证，因此有必要引入Council来进行审核。
+审核标准主要为：
+- 符合法律法规及普遍社会道德标准。
+- 对Bounty的内容有清楚描述，Bounty验收标准要有准确定义。
+
+对于审核不通过的Bounty，平台不会展示给平台用户。对于因疏忽而遗漏信息等原因导致的创建失败的情况，Funder可以修改后重新创建新的Bounty。
+
 ## 5. 平台行为及行为信用分数
 
 ### 5.1 行为定义
