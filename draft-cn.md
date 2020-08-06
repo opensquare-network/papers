@@ -85,7 +85,7 @@ SDF规定描述内容主要分为两部分：
 该描述信息包括两个分类，基础数据（Metadata）和业务数据(Business Data)。
 
 #### 4.2.1 基础数据
-基础数据是Bounty的固有属性，主要包括以下几个元素：
+基础数据是Bounty的固有属性，这些属性是Bounty创建的必填项，主要包括以下几个元素：
 - Funder：Bounty创建者。
 - Currency：Bounty的计算数字货币，如DOT，BTC，DAI等。
 - Price：以currency为单位的数字货币数量。
@@ -107,8 +107,23 @@ SDF规定描述内容主要分为两部分：
 审核标准主要为：
 - 符合法律法规及普遍社会道德标准。
 - 对Bounty的内容有清楚描述，Bounty验收标准要有准确定义。
+- Bounty给出的报酬不能严重市场价。
 
 对于审核不通过的Bounty，平台不会展示给平台用户。对于因疏忽而遗漏信息等原因导致的创建失败的情况，Funder可以修改后重新创建新的Bounty。
+Bounty一旦被创建，相应的数字资产就会被锁定；被解决后，相应部分资产会转给Hunter，同时Council会收取一定的服务费。
+
+#### 4.3.2 Bounty的申请和授权
+协作方的选择是双向的，Funder和Hunter都会担心遇到不守信用的合作方，
+而OpenSquare历史交易中所保存的用户历史行为以及由此而产生的用户行为分数恰恰解决了此问题。
+Hunter浏览可申请的Bounty列表时，可以同时看到Bounty的Funder，以及Funder的历史行为，
+Hunter可以根据平台给出的行为信用指标来衡量该Funder的信用以决定要不要申请此Bounty。
+同理，当一个Bounty有多个Hunter申请时，Bounty Funder则可查看各Hunter的历史行为及信用、能力指标来选择最适合Bounty的人选。
+
+#### 4.3.3 提交、审核与仲裁
+Bounty最终解决通常需要Hunter、Funder的多轮提交和审核，尽管Council对Bounty的交付标准有初始审核，但并不意味着交付标准在数学层面上可验证。
+对Funder与Hunter之间纠纷的仲裁将是Council面临的最大挑战，这中间可能会涉及很多繁琐复杂的链下行为，
+必要的时候Council会引入第三方权威机构甚至通过社区投票的方式来进行裁决。
+但可以保证的是，Council的所有与仲裁判断相关的行为均会记录在链上，也会公开接受社区的监督。
 
 ## 5. 平台行为及行为信用分数
 
