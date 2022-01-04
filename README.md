@@ -8,4 +8,4 @@ This repository host papers for OpenSquare network.
 [Simplified Chinese version](./light-papers/zh-v0.5.pdf)
 
 ## White Papers
-Currently we have only [draft white paper](./draft-cn.md) written in Simplified Chinese. Please watch this repo for the latest update.
+Check the [draft](./whitepaper.md).
