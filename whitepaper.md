@@ -30,3 +30,14 @@ We will first support collaborations between projects(B side) and builders(C sid
 1. Build common goods like explorers, governance tools for these projects.
 2. Lead some projects' ecosystem building as curators.
 3. Build platforms where projects and builders can join the collaboration network by themselves.
+
+## Trusted profile
+Profile trustworthiness can be enhanced by blockchain in the following ways.
+- History behaviors stored on-chain will be aggregated.
+- Users’ profiles can be bonded by partners with asset reservation.
+
+In the OpenSquare network, we stored the collaboration data which contain the subjective and objective ones to blockchain or IPFS. OpenSquare’s profile solution will support the following features.
+- Users can edit their profile and corresponding proof will be stored to blockchain or IPFS.
+- User on-chain behavior data will be aggregated and shown together with the provided info.
+- Users bond each other with asset reservation while reservation may be slashed due to misbehavior.
+- Different user roles will be supported. Special features will be provided to enterprise users.
