@@ -41,3 +41,4 @@ In the OpenSquare network, we stored the collaboration data which contain the su
 - User on-chain behavior data will be aggregated and shown together with the provided info.
 - Users bond each other with asset reservation while reservation may be slashed due to misbehavior.
 - Different user roles will be supported. Special features will be provided to enterprise users.
+- Credit model will be built based on the profile's subjective and objective data.
