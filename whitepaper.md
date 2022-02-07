@@ -16,7 +16,7 @@ We build collaborations in the web3 environment first with following thoughts.
   - Payment: crypto fund can be locked by code, while it provides a more reasonable way to handle the fund issues, especially the trust.
   - Relatively more trusted history records. Collaborators can check each other's collaboration history more easily, and the records are more credible.
 - Users' credit model dimension will be composed of different indicators. Currently, most onchain transactions
-and even DeFi behaviors are not enough to build credit which benefit users building collaborations
+and even DeFi behaviors are not enough to build credit which benefit users building collaborations.
   
 ### What
 The planned collaboration platform will solve concrete problems.
@@ -33,7 +33,7 @@ We will first support collaborations between projects(B side) and builders(C sid
 
 ## Credit building
 People’s credit can usually be judged by their behaviors. We can classify on-chain behaviors into two categories, objective ones and subjective ones.
-- Objective behaviors are related with the predefined rules, like breaking/commiting promises.
+- Objective behaviors are related with the predefined rules, like breaking/committing promises.
 - Subjective behaviors are remarks one collaborator gave to another.
 
 To help users’ usage in various scenarios, we build users’ credit score in three ways, behavior score, general score and feature score.
