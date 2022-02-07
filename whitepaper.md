@@ -31,6 +31,17 @@ We will first support collaborations between projects(B side) and builders(C sid
 2. Lead some projects' ecosystem building as curators.
 3. Build platforms where projects and builders can join the collaboration network by themselves.
 
+## Credit building
+People’s credit can usually be judged by their behaviors. We can classify on-chain behaviors into two categories, objective ones and subjective ones.
+- Objective behaviors are related with the predefined rules, like breaking/commiting promises.
+- Subjective behaviors are remarks one collaborator gave to another.
+
+To help users’ usage in various scenarios, we build users’ credit score in three ways, behavior score, general score and feature score.
+
+- Behavior score. It’s built directly from users’ collaboration activities. Usually one behavior has a score range which will be applied to the user’s score, and this score range can be governed with OpenSquare tokens.
+- General score. It’s just a normalization of behavior score which may help users’ understanding and comparison.
+- Feature score. Different behaviors may reflect different human traits. Category of different behaviors and the corresponding credit building will help users’ know another one’s different trait.
+
 ## Trusted profile
 Profile trustworthiness can be enhanced by blockchain in the following ways.
 - History behaviors stored on-chain will be aggregated.
